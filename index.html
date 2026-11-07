@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#180e2b">
+    <meta name="description" content="A little birthday surprise for Dennisa.">
+    <title>A little birthday surprise for Dennisa</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="night-sky" aria-hidden="true">
+      <span class="star star-one"></span>
+      <span class="star star-two"></span>
+      <span class="star star-three"></span>
+      <span class="star star-four"></span>
+      <span class="star star-five"></span>
+      <span class="star star-six"></span>
+      <span class="sky-glow"></span>
+    </div>
+
+    <main>
+      <section class="intro screen" id="intro" aria-labelledby="intro-title">
+        <div class="intro-card">
+          <p class="eyebrow"><span class="status-dot"></span> A LITTLE SOMETHING, MADE FOR YOU</p>
+          <button class="cake" id="blow-out" type="button" aria-label="Blow out the candle and reveal the birthday wishes">
+            <div class="candle">
+              <span class="candle-wick"></span>
+              <span class="flame"></span>
+              <span class="flame-halo"></span>
+            </div>
+            <div class="cake-top"></div>
+            <div class="cake-body">
+              <span class="cake-drip drip-one"></span>
+              <span class="cake-drip drip-two"></span>
+              <span class="cake-drip drip-three"></span>
+              <span class="cake-pearl pearl-one"></span>
+              <span class="cake-pearl pearl-two"></span>
+              <span class="cake-pearl pearl-three"></span>
+              <span class="cake-pearl pearl-four"></span>
+            </div>
+            <div class="cake-plate"></div>
+          </button>
+          <p class="intro-overline">ONE WISH, COMING RIGHT UP</p>
+          <h1 id="intro-title">Hey, Dennisa<span class="accent">.</span></h1>
+          <p class="intro-footnote">go on, make it a good one <span aria-hidden="true">♡</span></p>
+        </div>
+        <p class="page-note">HANDCRAFTED WITH A LITTLE BIT OF LOVE <span aria-hidden="true">✦</span></p>
+      </section>
+
+      <section class="letter screen" id="letter" aria-labelledby="letter-title" hidden>
+        <header class="letter-header">
+          <span class="birthday-tag"><span aria-hidden="true">✳</span> THE DAY IS ALL YOURS <span aria-hidden="true">✳</span></span>
+        </header>
+
+        <div class="letter-layout">
+          <div class="message-column">
+            <p class="intro-overline">A new year of you begins</p>
+            <h1 id="letter-title" tabindex="-1">HBD, <span class="name-accent">Dennisa</span><span class="accent">!</span></h1>
+            <p class="message-lead">Wishing you all the very best, today and always.</p>
+
+            <div class="wish-note">
+              <span class="note-sparkle" aria-hidden="true">✳</span>
+              <p>OK DISCLAIMER, ik i was late, gw ga jd org pertama wkwkkw, but anw its just bcs i fucked up the code nyaa pkonyaa, itu intinyaa, kl detailsnya nnti aja pankapan pas ngecall yah WWKWKKW</p>
+              <p class="wish-followup">ANWW Good luck skripsiannya! Semoga apa pun yang disemogakan bisa beneran terjadi. I hope we'll meet again sometime soon—until the next adventure di EU yahhhh.</p>
+              <p class="big-wish">GOOD LUCK, STAY HEALTHY, ANDDD…</p>
+              <p class="promise">this is my promise <span aria-hidden="true">:)))</span></p>
+            </div>
+
+          </div>
+
+          <section class="gallery" aria-label="A few favorite memories">
+            <button class="photo photo-portrait" type="button" data-photo="assets/dennisa-portrait.png" aria-label="View portrait of Dennisa">
+              <img src="assets/dennisa-portrait.png" alt="A close-up portrait of Dennisa wearing her glasses">
+              <span class="photo-heart" aria-hidden="true">♡</span>
+            </button>
+            <button class="photo photo-glasses" type="button" data-photo="assets/dennisa-glasses.png" aria-label="View photo of Dennisa">
+              <img src="assets/dennisa-glasses.png" alt="A relaxed photo of Dennisa in her glasses">
+              <span class="photo-heart" aria-hidden="true">♡</span>
+            </button>
+            <button class="photo photo-eu" type="button" data-photo="assets/eu-adventure.png" data-caption="accidentally, tp lucu jg ye aowkkwk" aria-label="View photo: accidentally, tp lucu jg ye aowkkwk">
+              <img src="assets/eu-adventure.png" alt="Dennisa and a friend out together at a tram stop in Europe">
+              <span class="photo-caption">accidentally, tp lucu jg ye aowkkwk</span>
+              <span class="photo-heart" aria-hidden="true">♡</span>
+            </button>
+            <span class="gallery-doodle" aria-hidden="true">✳</span>
+          </section>
+        </div>
+
+        <footer class="letter-footer">
+          <span>AN INTERNET-SIZED HUG, ALL THE WAY TO YOU</span>
+          <span aria-hidden="true">✦</span>
+          <span>WITH LOVE, ALWAYS</span>
+        </footer>
+      </section>
+    </main>
+
+    <aside class="music-widget" aria-label="Birthday soundtrack">
+      <span class="music-indicator" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <div class="music-copy">
+        <span class="music-title">klo lagu ini ke play, lu suka lewat ae tb2 gt wkwk</span>
+        <span class="music-status" id="music-status" aria-live="polite">starts when you tap the candle</span>
+      </div>
+      <button class="music-button" id="music-button" type="button" aria-label="Play birthday music">
+        <svg class="music-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M9 18V5l12-2v13" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+          <circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="1.7"></circle>
+          <circle cx="18" cy="16" r="3" stroke="currentColor" stroke-width="1.7"></circle>
+        </svg>
+      </button>
+      <audio id="background-music" src="assets/champagne-supernova-acoustic-cover.mp3" preload="auto" loop></audio>
+    </aside>
+
+    <dialog class="photo-viewer" id="photo-viewer" aria-label="Photo viewer">
+      <button class="viewer-close" id="viewer-close" type="button" aria-label="Close photo">×</button>
+      <img id="viewer-image" alt="">
+      <p id="viewer-caption"></p>
+    </dialog>
+
+    <div class="celebration" id="celebration" aria-hidden="true"></div>
+  </body>
+</html>
