@@ -20,14 +20,14 @@ cake.addEventListener("click", () => {
   window.setTimeout(() => {
     intro.hidden = true;
     letter.hidden = false;
-    document.title = "HBD, Dennisa! ♡";
+    document.title = "Happy Belated Birthday, Ben! ♡";
     document.querySelector("#letter-title").focus({ preventScroll: true });
     releaseConfetti();
   }, 550);
 });
 
 function releaseConfetti() {
-  const colors = ["#f3add4", "#d7b6ff", "#ffe4a8", "#fff3e9", "#c5e8dc"];
+  const colors = ["#ff626b", "#f2b6a4", "#ffe0aa", "#fff3e7", "#d58765"];
   const shapes = ["✦", "✧", "♡", "·"];
   const fragment = document.createDocumentFragment();
 
